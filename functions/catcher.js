@@ -4,6 +4,7 @@ const wait = require("node:timers/promises").setTimeout;
 const { checkRarity, getImage, solveHint } = require("pokehint");
 const { log, formatPokemon, logHook, colors, hideUsername, createRareLogEmbed } = require("../utils/utils");
 const { getName, getAIPrediction, solveCaptcha, sendCaptchaMessage } = require("../utils/api");
+const { normalizePokemonName } = require("../utils/nameResolver");
 const { owners, captchaHook, aiCatch: configAiCatch } = require("../config");
 const config = require('../config');
 const poketwo = "716390085896962058";
@@ -178,7 +179,7 @@ class AutoCatcher {
                   
                   
                   if (name && confidence >= 0) {
-                    name = name.toLowerCase().trim();
+                    name = normalizePokemonName(name);
                     const msgs = ["c", "catch"];
                     await message.channel.send(
                       `<@${poketwo}> ${msgs[Math.round(Math.random())]} ${name}`
