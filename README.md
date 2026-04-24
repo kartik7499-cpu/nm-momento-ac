@@ -22,7 +22,7 @@
 
 <p align="center">
   <a href="https://github.com/momento00/poketwo-autocatcher"><img width="200px" src="https://cdn.discordapp.com/attachments/1462107266659516610/1466465747701207080/mainlogo.png?ex=697cd827&is=697b86a7&hm=fdca5850c29d20e18d02892b9cdf87341d5fb0fb9e930d39f5c42e75199db552" alt="Zeta Logo"></a>
-  <h1 align="center">Zeta v1.4</h1>
+  <h1 align="center">NM x Zeta v1.4</h1>
 </p>
 
 <p align="center">
