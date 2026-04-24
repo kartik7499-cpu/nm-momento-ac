@@ -206,3 +206,4 @@ Pull requests & suggestions are always welcome! For major changes, please open a
 ## Credits
 
 Developed by momento.de
+AI by tomn_yakuza
